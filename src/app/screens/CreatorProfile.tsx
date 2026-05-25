@@ -507,8 +507,8 @@ export default function CreatorProfile() {
             variant="outline"
             className="flex-1 border-blue-600 text-blue-600 hover:bg-blue-50"
             onClick={() =>
-              alert(
-                "Chat feature coming soon!"
+              navigate(
+                `/chat/${creator.id}`
               )
             }
           >

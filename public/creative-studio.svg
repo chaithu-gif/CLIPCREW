@@ -1,0 +1,24 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="80" x2="1120" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="48" fill="url(#bg)"/>
+  <circle cx="910" cy="170" r="96" fill="#60A5FA" fill-opacity="0.28"/>
+  <rect x="110" y="130" width="560" height="520" rx="30" fill="#F8FAFC" fill-opacity="0.96"/>
+  <rect x="150" y="180" width="210" height="14" rx="7" fill="#CBD5E1"/>
+  <rect x="150" y="220" width="360" height="12" rx="6" fill="#E2E8F0"/>
+  <rect x="150" y="320" width="420" height="220" rx="24" fill="#DBEAFE"/>
+  <circle cx="250" cy="430" r="44" fill="#2563EB"/>
+  <path d="M240 430L260 430L250 452L240 430Z" fill="#F8FAFC"/>
+  <rect x="730" y="180" width="300" height="180" rx="28" fill="#F8FAFC" fill-opacity="0.9"/>
+  <rect x="780" y="235" width="200" height="12" rx="6" fill="#BFDBFE"/>
+  <rect x="780" y="270" width="140" height="12" rx="6" fill="#E0F2FE"/>
+  <rect x="730" y="410" width="300" height="220" rx="28" fill="#E0F2FE"/>
+  <path d="M820 560C860 500 920 470 980 480" stroke="#2563EB" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="840" cy="522" r="16" fill="#0F172A"/>
+  <circle cx="902" cy="500" r="16" fill="#0F172A"/>
+  <circle cx="962" cy="502" r="16" fill="#0F172A"/>
+</svg>

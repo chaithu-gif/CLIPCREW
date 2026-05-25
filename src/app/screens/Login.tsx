@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import {
   Camera,
@@ -136,20 +136,23 @@ export default function Login() {
     <div className="min-h-screen bg-white flex flex-col p-6">
 
       {/* HEADER */}
-      <div className="flex items-center gap-3 mb-8 pt-4">
+      <div className="flex flex-col gap-3 mb-8 pt-4 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex items-center gap-3">
+          <div className="bg-blue-600 p-2 rounded-lg">
+            <Camera className="w-6 h-6 text-white" />
+          </div>
 
-        <div className="bg-blue-600 p-2 rounded-lg">
-
-          <Camera className="w-6 h-6 text-white" />
-
+          <div>
+            <h1 className="text-2xl text-gray-900">
+              Clip Crew
+            </h1>
+            <p className="text-sm text-gray-500">Creative booking made simple</p>
+          </div>
         </div>
 
-        <h1 className="text-2xl text-gray-900">
-
-          Clip Crew
-
-        </h1>
-
+        <Link to="/" className="text-sm text-blue-600 hover:underline">
+          ← Back to home
+        </Link>
       </div>
 
 
